@@ -29,13 +29,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach() executes a function one time for each array element and .map() creates a new array a result of calling a function on every element in the calling array.
+
 2. Explain the difference between a callback and a higher order function.
+
+higher order functions takes another function as an argument and returns a function back to the callers and callback is a function that is passed to another function in hopes of the other functions being called.
 
 3. What is closure?
 
+It is a combination of functions that are bundled together and are referenced by its surrounding state.
+
 4. Describe the four rules of the 'this' keyword.
 
+is the function called by new
+is the function called by call(), apply(), or bind().
+is the function called as a method
+is the function called in the global
+
+
+
 5. Why do we need super() in an extended class?
+
+It is needed to call the constructor of the parent class and to access the parent's properties and methods.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
